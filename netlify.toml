@@ -1,0 +1,9 @@
+[build]
+  base = "salon-marketplace-clean"
+  command = "npm run build"
+  publish = "salon-marketplace-clean/dist/client"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
